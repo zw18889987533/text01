@@ -4,8 +4,8 @@
 # @Author  : harry
 # @desc :
 import streamlit as st
-from info_Stream_text.Base.BaseSettings import DataDIR
-from info_Stream_text.my_utils import file_open_util
+from Base.BaseSettings import DataDIR
+from my_utils import file_open_util
 from airtest.core.android.android import Android
 import subprocess
 st.set_page_config(
