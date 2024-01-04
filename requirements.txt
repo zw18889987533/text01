@@ -6,3 +6,4 @@ streamlit_echarts
 airtest
 xlrd
 openpyxl
+opencv-python-headless
