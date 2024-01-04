@@ -8,8 +8,8 @@
 import os.path
 
 BaseDIR = os.path.abspath(os.path.dirname(os.path.dirname(__file__))) # 拿到文件根目录
-DataDIR = os.path.join(BaseDIR, "data\\")
-imageDIR = os.path.join(BaseDIR,"info_Stream_text\\image")
+DataDIR = os.path.join(BaseDIR, "data/")
+imageDIR = os.path.join(BaseDIR,"/image")
 
 Android = "android://127.0.0.1:5037/f294efbc?cap_method=MINICAP&touch_method=MAXTOUCH&"
 Android_1 = "android://127.0.0.1:5037/M3AIKN079482RC7?cap_method=MINICAP&touch_method=MAXTOUCH&"
