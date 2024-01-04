@@ -8,7 +8,7 @@ from streamlit_echarts import st_echarts
 
 import os, sys
 sys.path.append(os.getcwd())
-from info_Stream_text.Base.BaseSettings import DataDIR
+from Base.BaseSettings import DataDIR
 
 st.set_page_config(page_title='抽卡分析图表',
                    layout='wide',
